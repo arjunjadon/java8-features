@@ -1,11 +1,11 @@
-package com.techlogy.java8.examples;
+package com.concisecode.java8.examples;
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.techlogy.java8.entity.Employee;
-import com.techlogy.java8.service.EmployeeService;
+import com.concisecode.java8.entity.Employee;
+import com.concisecode.java8.service.EmployeeService;
 
 public class ListSortingExample implements Comparator<Employee> {
 

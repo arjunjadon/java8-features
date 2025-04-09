@@ -1,15 +1,28 @@
-package com.techlogy.java8.entity;
+package com.concisecode.java8.entity;
+
+import java.util.List;
 
 public class Employee {
-	
+
 	private String empId;
 	private String empName;
 	private String deptName;
 	private Integer salary;
 	private String city;
-	
+	private List<String> contacts;
+
 	public Employee() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(String empId, String empName, String deptName, Integer salary, String city, List<String> contacts) {
+		super();
+		this.empId = empId;
+		this.empName = empName;
+		this.deptName = deptName;
+		this.salary = salary;
+		this.city = city;
+		this.contacts = contacts;
 	}
 
 	public Employee(String empId, String empName, String deptName, Integer salary, String city) {
@@ -61,12 +74,18 @@ public class Employee {
 		this.city = city;
 	}
 
+	public List<String> getContacts() {
+		return contacts;
+	}
+
+	public void setContacts(List<String> contacts) {
+		this.contacts = contacts;
+	}
+
 	@Override
 	public String toString() {
 		return "\nEmployee [empId=" + empId + ", empName=" + empName + ", deptName=" + deptName + ", salary=" + salary
-				+ ", city=" + city + "]";
+				+ ", city=" + city + ", contacts=" + contacts + "]";
 	}
-	
-	
 
 }

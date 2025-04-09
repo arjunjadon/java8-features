@@ -1,8 +1,8 @@
-package com.techlogy.java8.examples;
+package com.concisecode.java8.examples;
 
 import java.util.function.Function;
 
-public class FunctionInterfaceExample implements Function<String, String>{
+public class FunctionInterfaceImpl implements Function<String, String>{
 	
 	
 	@Override
@@ -11,7 +11,7 @@ public class FunctionInterfaceExample implements Function<String, String>{
 	}
 	
 	public static void main(String[] args) {
-		FunctionInterfaceExample functionInterfaceExample =new FunctionInterfaceExample();
+		FunctionInterfaceImpl functionInterfaceExample =new FunctionInterfaceImpl();
 		String smallCase = functionInterfaceExample.apply("Peter");
 		System.out.println(smallCase);
 		

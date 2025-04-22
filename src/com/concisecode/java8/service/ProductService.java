@@ -13,12 +13,12 @@ public class ProductService {
     	productList.add(new Product(1005, "Pant", "Van Heusen", "Formal", 2399.00, "Formal wear"));
     	productList.add(new Product(1009, "Capri", "Allen Solly", "Casual", 1499.00, "Casual wear"));
     	productList.add(new Product(1011, "Tousers", "Levis", "Formal", 2999.00, "Formal wear"));
-    	productList.add(new Product(1015, "Shirt", "Peter England", "Formals", 3999.00, "Formal wear"));
+    	productList.add(new Product(1015, "Shirt", "Peter England", "Formal", 3999.00, "Formal wear"));
     	productList.add(new Product(1017, "Jeans", "Pepe Jeans", "Casual", 2599.00, "Casual wear"));
     	productList.add(new Product(1022, "Sweatshirt", "Monte Carlo", "Casual", 3999.00, "Casual wear"));
-    	productList.add(new Product(1016, "Kurta", "Manyawar", "Party", 4999.00, "Party wear"));
-    	productList.add(new Product(1031, "F/Sleave Shirt", "Van Heusen", "Cloths", 2250.00, "Party wear"));
-    	productList.add(new Product(1033, "T-Shirt", "Monte Carlo", "Cloths", 1999.00, "Party wear"));
+    	productList.add(new Product(1016, "Kurta", "Manyawar", "Party Wear", 4999.00, "Party wear"));
+    	productList.add(new Product(1031, "F/Sleave Shirt", "Van Heusen", "Party Wear", 2250.00, "Party wear"));
+    	productList.add(new Product(1033, "T-Shirt", "Monte Carlo", "Party Wear", 1999.00, "Party wear"));
     	
     	return productList;
     	
